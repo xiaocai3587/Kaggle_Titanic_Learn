@@ -1,5 +1,5 @@
 # Kaggle_Titanic_Learn
-Kaggle泰坦尼克生存预测练习
+Kaggle泰坦尼克生存预测
 
 ## 1、 数据加载
 
@@ -25,6 +25,8 @@ data_train_features_scaler_3_2_1 按称谓平均值填充Age onehot+MinMax处理
 data_train_features_scaler_3_1_2 平均值填充Age onehot+Z-score处理
 
 data_train_features_scaler_3_2_2 按称谓平均值填充Age onehot+Z-score处理
+
+舍弃PassengerId、Survived、Name、Cabin列。
 
 ## 5、模型建立
 
